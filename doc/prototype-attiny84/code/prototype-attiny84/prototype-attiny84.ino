@@ -34,7 +34,7 @@ uint8_t leds[NUM_LEDS] = {
 };
 
 // Global delay (in milliseconds)
-unsigned int t = 50;
+#define t 50
 
 void setup() {
   // Configure ALL led pins to be a digital OUTPUT
